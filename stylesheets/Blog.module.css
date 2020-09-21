@@ -1,0 +1,29 @@
+.topImageWrapper {
+  margin: var(--topObj-margin-mobile);
+}
+
+.imageWrapper {
+  margin: var(--obj-margin-mobile);
+}
+
+.postDate {
+  color: var(--text-normal);
+  font-size: var(--font-smallest);
+  padding: 0 !important;
+}
+
+.credit {
+  color: var(--text-normal);
+  font-size: var(--font-smallest);
+  text-align: end;
+  padding: 0 !important;
+}
+
+/* for 001.js to fit title */
+.longTitle {
+  font-size: 1.9rem;
+}
+
+.lyrics {
+  font-size: var(--font-smaller);
+}

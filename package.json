@@ -1,0 +1,32 @@
+{
+  "name": "johndavidpena",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "analyze": "cross-env ANALYZE=true next build",
+    "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
+  },
+  "dependencies": {
+    "@sentry/browser": "^5.15.5",
+    "formik": "^2.1.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.3.2",
+    "mongodb": "^3.5.5",
+    "next": "9.3.1",
+    "next-connect": "^0.6.1",
+    "next-seo": "^4.4.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-spring": "^8.0.27",
+    "twilio": "^3.41.1"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^9.3.5",
+    "dotenv": "^8.2.0"
+  }
+}

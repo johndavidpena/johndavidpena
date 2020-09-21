@@ -1,0 +1,115 @@
+.Music {
+  display: grid;
+}
+
+.bricksBlog {
+  background: url(https://res.cloudinary.com/mimas-music/image/upload/v1595348546/blogSQUARE.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bricksLearn {
+  background: url(https://res.cloudinary.com/mimas-music/image/upload/v1595348544/learnSQUARE.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bricksBlog,
+.bricksLearn {
+  /* background-image: url('/px_by_Gre3g.png'); */
+  /* background-size: 400px; */
+  /* background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: lighten; */
+  border-radius: var(--border-radius);
+  cursor: pointer;
+
+  width: 300px;
+  height: 300px;
+  margin: var(--obj-margin-mobile);
+  text-align: center;
+
+  position: relative;
+}
+@media (min-width: 640px) {
+  .bricksBlog,
+  .bricksLearn {
+    width: 400px;
+    height: 400px;
+    margin: 1.2rem auto;
+  }
+}
+
+.bricksBlog a,
+.bricksLearn a,
+.bricksBlog span,
+.bricksLearn span {
+  font-size: 2.3rem;
+  line-height: 1;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--grey-100);
+}
+
+.rhone {
+  background-image: url("https://res.cloudinary.com/mimas-music/image/upload/v1583949817/johndavidpena/Rho%CC%82ne.jpg");
+  background-size: 400px;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: lighten;
+  border-radius: var(--border-radius);
+
+  width: 300px;
+  height: 100px;
+  margin: var(--obj-margin-mobile);
+  text-align: center;
+
+  position: relative;
+}
+@media (min-width: 640px) {
+  .rhone {
+    width: 400px;
+    margin: 1.2rem auto;
+  }
+}
+
+.rhone p,
+.rhone a {
+  font-size: 2.3rem;
+  line-height: 1;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--grey-700);
+}
+
+.absCentered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.topImageWrapper {
+  margin: var(--topObj-margin-mobile);
+}
+
+.imageWrapper {
+  margin: var(--obj-margin-mobile);
+}
+@media (min-width: 640px) {
+  .imageWrapper {
+    width: 400px;
+  }
+}
+
+.credit {
+  color: var(--text-normal);
+  font-size: var(--font-smallest);
+  text-align: end;
+  padding: 0 !important;
+}
+

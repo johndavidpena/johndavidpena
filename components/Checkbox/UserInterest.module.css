@@ -1,0 +1,50 @@
+.checkboxContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Styles for open house sign in */
+.userInterest p {
+  color: var(--text-dark);
+}
+
+.yesno {
+  display: flex;
+  justify-content: center;
+}
+
+.yesno div {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+
+.yesno div:first-child {
+  margin-right: 12px;
+}
+
+.yesno p {
+  padding: 0;
+  margin: 0 8px;
+}
+
+.how {
+  margin-top: 16px;
+}
+
+/* TODO: Only sized for the iPad */
+.interestBox {
+  width: 400px;
+  margin: 0 auto 16px auto;
+}
+
+.interest {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.interest p {
+  padding: 0;
+  margin-left: 8px;
+}

@@ -1,0 +1,86 @@
+.PostSpacer {
+  background-image: url('/px_by_Gre3g.png');
+  /* background-size: 400px; */
+  /* background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: lighten; */
+  border-radius: var(--border-radius);
+
+  width: 300px;
+  height: 100px;
+  margin: var(--obj-margin-mobile);
+  text-align: center;
+
+  position: relative;
+}
+@media (min-width: 640px) {
+  .PostSpacer {
+    width: 400px;
+    margin: 1.2rem auto;
+  }
+}
+
+.PostSpacer a,
+.PostSpacer span {
+  font-size: 2.3rem;
+  line-height: 1;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--text-normal);
+}
+
+.absCentered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* SetList styles */
+.SetList {
+  background-image: url('/px_by_Gre3g.png');
+  border-radius: var(--border-radius);
+
+  width: 300px;
+  height: 170px;
+  margin: var(--obj-margin-mobile);
+  text-align: center;
+
+  position: relative;
+}
+@media (min-width: 640px) {
+  .SetList {
+    width: 400px;
+    margin: 1.2rem auto;
+  }
+}
+
+.SetListText span {
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--text-normal);
+}
+
+.SetListSymbol span,
+.SetListTempo span {
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 900;
+  text-transform: lowercase;
+  color: var(--grey-100);
+}
+
+.SetListCentered {
+  width: 100%;
+  padding: 5px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,157 @@
+/* INDEX page styles */
+.SEOpageTitle {
+  /* display: none; */
+}
+
+.title,
+.subtitle,
+.arrow {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--off-white);
+
+  margin: 3rem 0;
+}
+@media (min-width: 640px) {
+  .title,
+  .subtitle,
+  .arrow {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 768px) {
+  .title,
+  .subtitle,
+  .arrow {
+    color: var(--off-white);
+  }
+}
+
+.title {
+  margin-top: 3rem;
+}
+
+.subtitle {
+  /* text-align: end; */
+}
+
+.arrow {
+  color: var(--rhone-orange);
+}
+
+
+
+/* MAIN styles to be applied wherever appropriate */
+.pageGrid {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  min-height: 100vh;
+  max-width: 800px;
+}
+
+@media (min-width: 768px) {
+  .pageGrid {
+    margin: 0 auto 1.5rem auto;
+  }
+}
+
+.page {
+  max-width: 800px;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.wrapper {
+  margin: var(--obj-margin-mobile);
+  width: 288px;
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+}
+@media (min-width: 640px) {
+  .wrapper {
+    width: 400px;
+  }
+}
+@media (min-width: 768px) {
+  .wrapper {
+      width: 500px;
+  }
+}
+
+.thumbnailContainer {
+  position: relative;
+}
+
+.thumbnailContainer img {
+  opacity: 0.5;
+}
+
+.thumbnailContainer button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  appearance: none;
+  outline: 0;
+  background-color: var(--blue);
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 10px 15px;
+  color: var(--grey-050);
+  width: 225px;
+  cursor: pointer;
+  font-size: 18px;
+  transition-duration: 0.25s;
+  margin: 8px auto;
+  display: block;
+  text-decoration: none;
+
+  box-shadow: var(--box-shadow);
+  z-index: 1;
+}
+
+.thumbnailContainer button:hover {
+  color: var(--grey-800);
+}
+
+/* VIDEO styles */
+.videoContainer {
+  margin: 4rem 0;
+}
+
+.videoResponsive{
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  margin: 20px 0;
+  border-radius: var(--border-radius);
+}
+
+.videoResponsive iframe{
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.topImageWrapper {
+  margin: var(--topObj-margin-mobile);
+}
+
+.imageWrapper {
+  margin: var(--obj-margin-mobile);
+}
+
+.credit {
+  color: var(--text-normal);
+  font-size: var(--font-smallest);
+  text-align: end;
+  padding: 0 !important;
+}
