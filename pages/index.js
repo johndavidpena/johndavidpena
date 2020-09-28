@@ -31,6 +31,31 @@ const Index = ({ showForm, setShowForm }) => {
         title='John David Pena'
         description='John David Peña is a musician and realtor with eXp Realty in El Paso, Texas.'
         canonical='https://johndavidpena.com/'
+        openGraph={{
+          url: 'https://johndavidpena.com/',
+          title: 'John David Pena',
+          description: 'John David Peña is a musician and realtor with eXp Realty in El Paso, Texas.',
+          images: [
+            {
+              url: '',
+              width: 720,
+              height: 720,
+              alt: 'New Real Estate Agent Mindset logo',
+            },
+            {
+              url: '',
+              width: 640,
+              height: 360,
+              alt: '',
+            },
+            {
+              url: '',
+              width: 640,
+              height: 427,
+              alt: '',
+            },
+          ],
+        }}
       />
 
       {/* <h1 className={MainStyles.title}>John David Pena

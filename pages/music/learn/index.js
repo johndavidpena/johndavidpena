@@ -1,50 +1,49 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import MainStyles from '../../../stylesheets/Main.module.css';
-import VideoStyles from '../../../stylesheets/Video.module.css';
 import PostSpacer from '../../../components/Spacers/PostSpacer';
 
 const BegLesson1 = () => (
-  <div className={VideoStyles.container}>
-    <div className={VideoStyles.videoResponsive}>
+  <div className={MainStyles.container}>
+    <div className={MainStyles.videoResponsive}>
       <iframe title='Beginner Guitar Lesson 1' width="560" height="315" src="https://www.youtube.com/embed/Ffj9hU6kf3o" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     </div>
   </div>
 );
 const BegLesson2 = () => (
-  <div className={VideoStyles.container}>
-    <div className={VideoStyles.videoResponsive}>
+  <div className={MainStyles.container}>
+    <div className={MainStyles.videoResponsive}>
       <iframe title='Beginner Guitar Lesson 2' width="560" height="315" src="https://www.youtube.com/embed/CU542t2PhME" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     </div>
   </div>
 );
 const BegLesson3 = () => (
-  <div className={VideoStyles.container}>
-    <div className={VideoStyles.videoResponsive}>
+  <div className={MainStyles.container}>
+    <div className={MainStyles.videoResponsive}>
       <iframe title='Beginner Guitar Lesson 3' width="560" height="315" src="https://www.youtube.com/embed/7YckVmpaynU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     </div>
   </div>
 );
 
 const IntLesson1 = () => (
-  <div className={VideoStyles.container}>
-    <div className={VideoStyles.videoResponsive}>
+  <div className={MainStyles.container}>
+    <div className={MainStyles.videoResponsive}>
       <iframe title='Intermediate Guitar Lesson 1' width="560" height="315" src="https://www.youtube.com/embed/aQ6R1H2k-Ow" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     </div>
   </div>
 );
 
 const IntLesson2 = () => (
-  <div className={VideoStyles.container}>
-    <div className={VideoStyles.videoResponsive}>
+  <div className={MainStyles.container}>
+    <div className={MainStyles.videoResponsive}>
       <iframe title='Intermediate Guitar Lesson 2' width="560" height="315" src="https://www.youtube.com/embed/EuDLMqganpo" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     </div>
   </div>
 );
 
 const IntLesson3 = () => (
-  <div className={VideoStyles.container}>
-    <div className={VideoStyles.videoResponsive}>
+  <div className={MainStyles.container}>
+    <div className={MainStyles.videoResponsive}>
       <iframe title='Intermediate Guitar Lesson 3' width="560" height="315" src="https://www.youtube.com/embed/939Q2xwPmAM" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     </div>
   </div>
