@@ -84,13 +84,21 @@ const Index = ({ showForm, setShowForm }) => {
         </div>
       </div>}
 
-      {showForm && (
+      <div>
+        <br />
+        <h2>Email me at john@johndavidpena.com</h2>
+        <br />
+        <h2>Check out my YouTube channel, The SONG Graveyard</h2>
+        <img src="https://res.cloudinary.com/mimas-music/image/upload/v1612967202/Song%20Graveyard/Logo_white_text.png" alt="song graveyard youtube channel logo" />
+      </div>
+
+      {/* {showForm && (
         <MongoForm showForm={showForm} setShowForm={setShowForm} />
       )}
 
       {!showForm && (
         <p className={MainStyles.subHeading2}>Thanks!</p>
-      )}
+      )} */}
     </>
   );
 }
