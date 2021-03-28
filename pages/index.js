@@ -88,8 +88,8 @@ const Index = ({ showForm, setShowForm }) => {
         <br />
         <h2>Email me at john@johndavidpena.com</h2>
         <br />
-        <h2>Check out my YouTube channel, The SONG Graveyard</h2>
-        <img src="https://res.cloudinary.com/mimas-music/image/upload/v1612967202/Song%20Graveyard/Logo_white_text.png" alt="song graveyard youtube channel logo" />
+        {/* <h2>Check out my YouTube channel, The SONG Graveyard</h2>
+        <img src="https://res.cloudinary.com/mimas-music/image/upload/v1612967202/Song%20Graveyard/Logo_white_text.png" alt="song graveyard youtube channel logo" /> */}
       </div>
 
       {/* {showForm && (
